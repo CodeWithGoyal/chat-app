@@ -74,8 +74,9 @@ $messageForm.addEventListener("submit",(e)=>{
         $messageInput.focus();
 
         if(error){
-            new alert("this message is not allowed")
-            return  console.log(error);
+            alert(error)
+            return;
+            // return  console.log(error);
         }
         // console.log("The message is delivered!");
     })
